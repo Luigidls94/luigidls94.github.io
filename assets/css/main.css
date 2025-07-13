@@ -156,6 +156,7 @@ select,
 textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
+	appearance: none;
 	-ms-appearance: none;
 	appearance: none;
 }
@@ -2180,11 +2181,20 @@ button:active,
 	margin: 0;
 	padding: 1em 0 1em 0;
 	font-size: 0.8em;
+	display: flex;
+	flex-direction: column;
 }
 
 .item header h3 {
 	font-size: 1em;
 }
+
+.mail-button {
+	width: fit-content;
+	text-align: center;
+	margin: 1em auto;
+}
+
 
 /* Icons */
 
